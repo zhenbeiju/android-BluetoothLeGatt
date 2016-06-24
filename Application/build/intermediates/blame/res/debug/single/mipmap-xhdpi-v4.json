@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/shadow_bottom.png",
+        "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res/mipmap-xhdpi-v4/shadow_bottom.png"
+    },
+    {
+        "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/shadow_right.png",
+        "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res/mipmap-xhdpi-v4/shadow_right.png"
+    },
+    {
+        "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/shadow_left.png",
+        "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res/mipmap-xhdpi-v4/shadow_left.png"
+    },
+    {
+        "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res/mipmap-xhdpi-v4/ic_launcher.png"
+    }
+]

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dialog_cards_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/list_head"
+        style="@style/textview.medim"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_height_medium"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black_666" />
+
+
+    <View
+        android:id="@+id/layout_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black_666" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:dividerHeight="2dip"
+        android:listSelector="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/list_none_notice"
+        style="@style/textview.medim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:singleLine="true"
+        android:text="@string/no_available_data"
+
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+
+    

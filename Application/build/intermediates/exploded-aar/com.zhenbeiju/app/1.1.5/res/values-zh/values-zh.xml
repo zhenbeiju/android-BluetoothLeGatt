@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CommandUtil</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="date_initing_wait">请稍等...</string>
+    <string name="error_authfail">身份验证失败</string>
+    <string name="error_network">网络错误</string>
+    <string name="error_parse">数据解析错误</string>
+    <string name="error_redirect">重定向错误</string>
+    <string name="error_server">服务器内部错误</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="no_available_data">没有可用数据</string>
+    <string name="processing">进行中</string>
+</resources>

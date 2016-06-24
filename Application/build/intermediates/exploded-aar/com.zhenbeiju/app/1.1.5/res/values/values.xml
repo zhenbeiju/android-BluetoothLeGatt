@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <color name="black">#222</color>
+    <color name="black_666">#555</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="materia_button_text">#666</color>
+    <color name="purple">#777</color>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_small_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_small_margin">8dp</dimen>
+    <dimen name="big_distance">40dip</dimen>
+    <dimen name="big_padding">24dp</dimen>
+    <dimen name="body_padding_large">10dp</dimen>
+    <dimen name="body_padding_medium">10dp</dimen>
+    <dimen name="button_height_medium">40dip</dimen>
+    <dimen name="codelab_fab_margin_bottom">16dp</dimen>
+    <dimen name="codelab_fab_margin_right">16dp</dimen>
+    <dimen name="grid_column_width">96dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="medim_big_distance">30dip</dimen>
+    <dimen name="medim_distance">26dip</dimen>
+    <dimen name="medim_small_distance">20dip</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">120dp</dimen>
+    <dimen name="small_distance">14dip</dimen>
+    <dimen name="small_padding">12dp</dimen>
+    <dimen name="speaker_image_padding">8dp</dimen>
+    <dimen name="speaker_image_size">36dp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="vendor_image_size">100dp</dimen>
+    <integer name="num_cols">1</integer>
+    <string name="app_name">CommandUtil</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="date_initing_wait">please wait...</string>
+    <string name="error_authfail">AuthFailureError</string>
+    <string name="error_network">NetworkError</string>
+    <string name="error_parse">ParseError</string>
+    <string name="error_redirect">RedirectError</string>
+    <string name="error_server">ServerError</string>
+    <string name="error_timeout">TimeoutError</string>
+    <string name="error_unknown">UnkownError</string>
+    <string name="no_available_data">no available data</string>
+    <string name="processing">Processing</string>
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.Holo.ProgressBar.Large"/>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@mipmap/shadow_left</item>
+        <item name="shadow_right">@mipmap/shadow_right</item>
+        <item name="shadow_bottom">@mipmap/shadow_bottom</item>
+    </style>
+    <style name="custom_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="textview.big" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="textview.medim" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="textview.small" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:padding">2dip</item>
+    </style>
+</resources>

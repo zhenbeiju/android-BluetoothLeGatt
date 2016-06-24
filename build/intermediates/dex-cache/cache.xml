@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_9351e7f9a2ac1b5a1157a3aeee07f463d5a6f30c/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_c2b25049e1ab5cb6d5d1fe9e86232a08b1eb5447/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-23.3.0_7859ba09c5f82f0294a7a52e0218f713d10c8199/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_abf42930aad5c7feaa8efdb4df698d2bfa5746c4/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_0544cddd80937eac408af177de6777bdf48f6a74/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="77d2434344bb60742bb15bee13200836a84da5d5">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fe5dc2686b9787eb34f5055de28360b439db8469/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_d132c69e7b23d27af9778045543cac1d07d141fb/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a95c09db97f586576fca15b93d664028b448c6ec">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.zhenbeiju-app-1.1.5_523b91cd7b722f80bb79cf6c5a187e9b7db2f0e9/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.1.0/6025b7df8a6a4193138723ef120e7228b6a97024/okhttp-urlconnection-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6025b7df8a6a4193138723ef120e7228b6a97024">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-2.1.0_c1f250d8b456e8d6bcf9a6d193150d7369c79023/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-math/1.0.0/5efd0e3928c33c74bbc05d7425e3a4652b8fc0dc/rxjava-math-1.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5efd0e3928c33c74bbc05d7425e3a4652b8fc0dc">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-math-1.0.0_2ac6f57851e96083ed076d65e7d2f8731666bffa/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_66a8eea0575f264ff5644211faba099f18ba1758/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="65af9b5a4ba95aeec201b86380e0f24874227cd8">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2e60755988bfa11e4f7e79ac34a8629271dc066/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.1/39eff75ddcb987ff65888361a29f489c178429a3/okio-1.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="39eff75ddcb987ff65888361a29f489c178429a3">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.0.1_25df8dfcd487d97497a429591e0da70c283ba233/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_067f54c657163ab3f2941e811a45cb989d416d00/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_23dd3da6853019781bcdbd2f7f10371d925cec3b/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.1.0/9b51f7d0c19f179b52beab7cb433f8ba5cf786a4/okhttp-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9b51f7d0c19f179b52beab7cb433f8ba5cf786a4">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.1.0_91286133dbdc059d86f1fe5f85d7a438077f694f/classes.dex" />
+    </item>
+    <item
+        jar="/opt/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_ce4b168a6a58bc3fcd41c2a9e083ac97b17599a0/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_a420a1b05f38237b0812dd0af16274664d8198e2/classes.dex" />
+    </item>
+    <item
+        jar="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_1bc25196f276a66250539e74775e5c8dcd6c34ff/classes.dex" />
+    </item>
+
+</items>

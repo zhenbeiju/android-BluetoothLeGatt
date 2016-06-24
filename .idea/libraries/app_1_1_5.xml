@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="app-1.1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhenbeiju/app/1.1.5/6666d36f7ce91ded8288139243db03298fd3de68/app-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
