@@ -112,12 +112,12 @@
         "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res/layout/dialog_custom.xml"
     },
     {
-        "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/dialog_progress_loading.xml",
         "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.zhenbeiju/app/1.1.5/res/layout/dialog_progress_loading.xml"
+    },
+    {
+        "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/home/zhanglin/Documents/github/android-BluetoothLeGatt/Application/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",

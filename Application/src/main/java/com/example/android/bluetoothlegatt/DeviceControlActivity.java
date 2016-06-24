@@ -91,6 +91,7 @@ public class DeviceControlActivity extends Activity {
     private String mDeviceAddress;
     private BluetoothLeService mBluetoothLeService;
     BluetoothGattCharacteristic mSendCharacteristic;
+    BluetoothGattCharacteristic mReadCharacteristic;
     private boolean mConnected = false;
     private boolean needSendVerify = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
@@ -187,6 +188,11 @@ public class DeviceControlActivity extends Activity {
             final boolean result = mBluetoothLeService.connect(mDeviceAddress);
             Log.d(TAG, "Connect request result=" + result);
         }
+    }
+
+    @OnClick(R.id.send_verify)
+    public void sendVerifyClick() {
+        sendVerify();
     }
 
 
@@ -339,6 +345,8 @@ public class DeviceControlActivity extends Activity {
                 uuid = gattCharacteristic.getUuid().toString();
                 if (uuid.equals("0000ee02-0000-1000-8000-00805f9b34fb")) {
                     mSendCharacteristic = gattCharacteristic;
+                } else if (uuid.equals("0000ee01-0000-1000-8000-00805f9b34fb")) {
+                    mReadCharacteristic = gattCharacteristic;
                 }
                 currentCharaData.put(
                         LIST_NAME, SampleGattAttributes.lookup(uuid, unknownCharaString));
@@ -368,17 +376,17 @@ public class DeviceControlActivity extends Activity {
     }
 
     public void sendCommand(String command) {
+        mBluetoothLeService.setCharacteristicNotification(mReadCharacteristic, true);
+
         byte[] byteCommand = NetDataTypeTransform.intStringToByte(command);
         if (mSendCharacteristic != null) {
-            LogManager.e(mSendCharacteristic.getUuid().toString());
-            if (mSendCharacteristic.getUuid().toString().equals("")) {
-                mBluetoothLeService.sendData(mSendCharacteristic, byteCommand);
-                LogManager.e("send data : " + mSendCharacteristic.getUuid() + "|" + command);
-            }
+            mBluetoothLeService.sendData(mSendCharacteristic, byteCommand);
+            LogManager.e("send data : " + command);
         } else {
             DialogInfo.showToast("not connect yet");
 //            LogManager.e("not connect");
         }
+        mBluetoothLeService.readCharacteristic(mReadCharacteristic);
     }
 
 

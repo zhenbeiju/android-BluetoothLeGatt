@@ -16,8 +16,16 @@ public class DeviceControlActivity$$ViewBinder<T extends com.example.android.blu
     target.sendDataValue = finder.castView(view, 2131492960, "field 'sendDataValue'");
     view = finder.findRequiredView(source, 2131492961, "field 'dataValue'");
     target.dataValue = finder.castView(view, 2131492961, "field 'dataValue'");
-    view = finder.findRequiredView(source, 2131492962, "field 'sendVerify'");
+    view = finder.findRequiredView(source, 2131492962, "field 'sendVerify' and method 'sendVerifyClick'");
     target.sendVerify = finder.castView(view, 2131492962, "field 'sendVerify'");
+    view.setOnClickListener(
+      new butterknife.internal.DebouncingOnClickListener() {
+        @Override public void doClick(
+          android.view.View p0
+        ) {
+          target.sendVerifyClick();
+        }
+      });
     view = finder.findRequiredView(source, 2131492963, "field 'sendReadAlarmSleep' and method 'sendReadAlarm_sleep'");
     target.sendReadAlarmSleep = finder.castView(view, 2131492963, "field 'sendReadAlarmSleep'");
     view.setOnClickListener(

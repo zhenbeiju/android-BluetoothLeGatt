@@ -185,6 +185,7 @@
             android:id="@+id/set_alarm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/set_clock"
             android:layout_toRightOf="@+id/set_clock"
             android:orientation="horizontal">
 
@@ -208,6 +209,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/set_clock"
+            android:layout_toRightOf="@+id/send_set_time"
             android:text="设置休眠时间" />
     </RelativeLayout>
 
